@@ -211,6 +211,7 @@ while run:
                 switch_naughts_and_crosses *= -1
                 winner = 0
                 turns = 0
+                player = -1
                 draw_data[0] = False
                 draw_data[1] += 1
                 fill_board()
